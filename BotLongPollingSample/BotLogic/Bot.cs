@@ -11,7 +11,7 @@ namespace BotLongPollingSample.BotLogic
             {
                 return client;
             }
-            client = new TelegramBotClient("6152206590:AAF-6G8ARkx8QVH5UH9s8EBUwBZY_dNJPic");
+            client = new TelegramBotClient(Your bot token);
             return client;
         }
     }
